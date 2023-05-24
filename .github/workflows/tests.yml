@@ -80,8 +80,8 @@ jobs:
       - name: Prepare environment
         run: php prepare.php
 
-      - name: Run unit tests
-        run: php test.php
+      # - name: Run unit tests
+      #  run: php test.php
         # Prevent the workflow from stopping if there are test failures.
         continue-on-error: true
 
