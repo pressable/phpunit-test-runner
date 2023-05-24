@@ -80,8 +80,8 @@ jobs:
       - name: Prepare environment
         run: php prepare.php
 
-      # - name: Run unit tests
-      #  run: php test.php
+      - name: Run unit tests
+        run: php test.php
         # Prevent the workflow from stopping if there are test failures.
         continue-on-error: true
 
@@ -90,5 +90,5 @@ jobs:
         # Prevent the workflow from stopping if the reporting fails.
         continue-on-error: true
 
-      - name: Cleanup
-        run: php cleanup.php
+     # - name: Cleanup
+     #   run: php cleanup.php
