@@ -42,7 +42,7 @@ jobs:
   # - Cleans up.
   test:
     name: Run Core PHPUnit tests
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     
     # Remove this line if Github Actions is your preferred means of running the tests.
     # if: ${{ false }}
