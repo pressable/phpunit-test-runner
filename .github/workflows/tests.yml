@@ -90,5 +90,5 @@ jobs:
         # Prevent the workflow from stopping if the reporting fails.
         continue-on-error: true
 
-     # - name: Cleanup
-     #   run: php cleanup.php
+      - name: Cleanup
+        run: php cleanup.php
